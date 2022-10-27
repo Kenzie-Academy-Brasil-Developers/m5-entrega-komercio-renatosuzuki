@@ -167,4 +167,4 @@ if DATABASE_URL:
         default=DATABASE_URL, conn_max_age=500, ssl_require=True)
     DATABASES['default'].update(db_from_env)
 
-ALLOWED_HOSTS = ['komercio-renatosuzuki.herokuapp.com/', 'localhost']
+ALLOWED_HOSTS = ['komercio-renatosuzuki.herokuapp.com', 'localhost']
