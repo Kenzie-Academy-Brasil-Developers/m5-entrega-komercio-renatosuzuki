@@ -1,0 +1,51 @@
+[
+    {
+        "model": "users.user", 
+        "pk": "bc8730dc-d6f8-4be9-8eb7-3c5ff6c14d7d", 
+        "fields": {
+            "password": "pbkdf2_sha256$390000$eNjrIvawnVbnGQV4xS8vL1$ru78B4JOql9JA951GjGe+W5KomVd8lP6sAgU5dAugyQ=", 
+            "last_login": null, 
+            "is_superuser": false, 
+            "username": "Panda", 
+            "email": "", 
+            "is_staff": false, 
+            "is_active": true, 
+            "date_joined": "2022-10-25T22:49:38.899Z", 
+            "is_seller": true, 
+            "first_name": "renato", 
+            "last_name": "suzuki", 
+            "groups": [], 
+            "user_permissions": []
+            }
+    }, 
+    {
+        "model": "users.user", 
+        "pk": "e30704ce-fd62-4021-9ff7-ece49ee75116", 
+        "fields": {
+            "password": "pbkdf2_sha256$390000$ubOFqhZSot0VLXIgPHTKSW$E301SaeWur70k/xxYDHRIzLjDeJOaArYKxGc3ecJj9Y=", 
+            "last_login": null, 
+            "is_superuser": false, 
+            "username": "teste_suzuki", 
+            "email": "", 
+            "is_staff": false, 
+            "is_active": true, 
+            "date_joined": "2022-10-27T04:44:05.210Z", 
+            "is_seller": false, 
+            "first_name": "renato", 
+            "last_name": "suzuki", 
+            "groups": [], 
+            "user_permissions": []
+            }
+    },
+    {
+        "model": "products.product", 
+        "pk": "73809ddf-f85f-4172-8d9c-2672a85e2140", 
+        "fields": {
+            "description": "produto", 
+            "price": "1.00", 
+            "quantity": 15, 
+            "is_active": true, 
+            "seller": "bc8730dc-d6f8-4be9-8eb7-3c5ff6c14d7d"
+            }
+    }
+]
