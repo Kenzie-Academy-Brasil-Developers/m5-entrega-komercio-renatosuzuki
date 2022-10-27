@@ -30,7 +30,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = env('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['komercio-renatosuzuki.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -166,5 +166,3 @@ if DATABASE_URL:
     db_from_env = dj_database_url.config(
         default=DATABASE_URL, conn_max_age=500, ssl_require=True)
     DATABASES['default'].update(db_from_env)
-
-ALLOWED_HOSTS = ['komercio-renatosuzuki.herokuapp.com', 'localhost']
